@@ -237,20 +237,21 @@ footer {
 }
 /* Estilo para el botón de descarga */
 .download-button {
-    display: inline-block;
+   /*display: inline-block;*/
     background: #28a745; /* Un verde que evoca "descarga" */
     color: #fff;
     padding: 0.8rem 2rem;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 1.5rem; /* Espacio sobre el botón de volver */
+    margin: 1.5rem auto 0 auto; /* Centra horizontalmente y mantiene el margen superior */
     transition: background 0.3s ease, transform 0.2s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    margin-right: auto; /* Empuja el botón a la izquierda */
-    margin-left: 0;   /* Asegura que no haya margen izquierdo */
+    /*margin-right: auto; /* Empuja el botón a la izquierda */
+    /*margin-left: 0;   /* Asegura que no haya margen izquierdo */
     display: block;   /* Hace que ocupe su propia línea y le permite usar margin: auto */
     width: fit-content; /* El botón solo ocupa el ancho de su contenido */
+
 
 }
 
